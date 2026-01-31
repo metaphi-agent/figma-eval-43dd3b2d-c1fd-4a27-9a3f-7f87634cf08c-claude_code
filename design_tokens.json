@@ -1,0 +1,72 @@
+{
+  "colors": {
+    "coldGrey": {
+      "5": "#f8f8f8",
+      "10": "#f2f2f2",
+      "20": "#e6e6e6",
+      "30": "#d9d9d9",
+      "40": "#cccccc",
+      "50": "#b3b3b3",
+      "60": "#999999",
+      "70": "#808080",
+      "80": "#666666",
+      "90": "#333333",
+      "black": "#1a1a1a",
+      "white": "#ffffff"
+    },
+    "blue": {
+      "90": "#1e40af"
+    },
+    "purple": {
+      "90": "#581c87"
+    },
+    "red": {
+      "10": "#fef2f2"
+    },
+    "orange": {
+      "20": "#fed7aa"
+    },
+    "yellow": {
+      "50": "#fef08a"
+    },
+    "primary": "#2563eb",
+    "secondary": "#64748b",
+    "accent": {
+      "pink": "#ec4899",
+      "orange": "#f97316",
+      "blue": "#0ea5e9"
+    }
+  },
+  "gradients": {
+    "blue1": "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+    "blue3": "linear-gradient(180deg, #0ea5e9 0%, #2563eb 100%)",
+    "blue19": "linear-gradient(135deg, #1e40af 0%, #3b82f6 100%)",
+    "purple7": "linear-gradient(135deg, #7c3aed 0%, #a855f7 100%)",
+    "purple12": "linear-gradient(135deg, #581c87 0%, #7c3aed 100%)",
+    "purple16": "linear-gradient(180deg, #a855f7 0%, #ec4899 100%)",
+    "purple21": "linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%)",
+    "red9": "linear-gradient(135deg, #ef4444 0%, #f97316 100%)",
+    "red18": "linear-gradient(180deg, #ef4444 0%, #ec4899 100%)",
+    "red22": "linear-gradient(135deg, #dc2626 0%, #f97316 100%)",
+    "orange5": "linear-gradient(135deg, #f97316 0%, #fbbf24 100%)",
+    "orange10": "linear-gradient(180deg, #fb923c 0%, #f97316 100%)",
+    "orange20": "linear-gradient(135deg, #ea580c 0%, #facc15 100%)",
+    "light6": "linear-gradient(180deg, #f8fafc 0%, #e2e8f0 100%)",
+    "light23": "linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%)",
+    "light28": "linear-gradient(180deg, #ffffff 0%, #f1f5f9 100%)"
+  },
+  "shadows": {
+    "200": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+    "300": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+    "400": "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)"
+  },
+  "typography": {
+    "fontFamily": "'Inter', -apple-system, BlinkMacSystemFont, sans-serif"
+  },
+  "spacing": {
+    "desktop": {
+      "containerWidth": "1440px",
+      "containerPadding": "80px"
+    }
+  }
+}
