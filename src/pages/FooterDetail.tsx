@@ -80,7 +80,7 @@ export default function FooterDetail() {
                 </div>
                 <div className="p-6">
                   <img
-                    src={`../ground_truth/${footer.image}`}
+                    src={`./assets/footers/${footer.image}`}
                     alt={footer.name}
                     className="w-full h-auto rounded border border-gray-200"
                   />
@@ -97,7 +97,7 @@ export default function FooterDetail() {
               </div>
               <div className="p-6">
                 <img
-                  src={`../ground_truth/${footer.image}`}
+                  src={`./assets/footers/${footer.image}`}
                   alt={footer.name}
                   className="w-full h-auto rounded border border-gray-200"
                 />

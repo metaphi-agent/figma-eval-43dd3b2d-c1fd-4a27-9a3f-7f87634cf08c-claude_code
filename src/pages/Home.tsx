@@ -27,7 +27,7 @@ export default function Home() {
               {/* Image Preview */}
               <div className="relative aspect-[3/1] bg-gray-100 overflow-hidden">
                 <img
-                  src={`./ground_truth/${footer.image}`}
+                  src={`./assets/footers/${footer.image}`}
                   alt={footer.name}
                   loading="lazy"
                   className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-300"

@@ -1,0 +1,72 @@
+{
+  "colors": {
+    "dark": {
+      "background": "#222429",
+      "text": "#FFFFFF"
+    },
+    "light": {
+      "background": "#FFFFFF",
+      "text": "#000000"
+    },
+    "gradients": {
+      "blue": "linear-gradient(90deg, #ADB6E5 0%, #86FDE8 100%)",
+      "pink": "linear-gradient(90deg, #DCFFBD 0%, #CCA6D1 100%)",
+      "orange": "linear-gradient(90deg, #FFE259 0%, #FFA751 100%)",
+      "red-yellow": "linear-gradient(90deg, #C02424 0%, #F0CB35 100%)"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "primary": "Roboto, sans-serif"
+    },
+    "fontSize": {
+      "sm": "14px",
+      "base": "16px",
+      "lg": "18px",
+      "xl": "26px"
+    },
+    "fontWeight": {
+      "regular": 400,
+      "bold": 700
+    }
+  },
+  "spacing": {
+    "xs": "8px",
+    "sm": "16px",
+    "md": "24px",
+    "lg": "32px",
+    "xl": "40px"
+  },
+  "borderRadius": {
+    "sm": "10px",
+    "md": "20px",
+    "lg": "30px"
+  },
+  "components": {
+    "logo": {
+      "component": "SiteLogo",
+      "variants": ["Default", "White"]
+    },
+    "navigation": {
+      "component": "menu/footer",
+      "variants": ["vert1", "vert2", "vert3", "vert4", "horizontal", "secondary"]
+    },
+    "form": {
+      "component": "form/two",
+      "fields": ["name", "company", "position", "phone", "email"]
+    },
+    "button": {
+      "component": "button",
+      "variants": ["5", "10", "20", "30"],
+      "styles": ["contactus", "started", "Subscribe"]
+    },
+    "social": {
+      "component": "social",
+      "icons": ["facebook", "twitter", "telegram", "instagram", "linkedin", "github", "gitlab", "youtube", "figma"]
+    },
+    "contact": {
+      "components": ["address", "email", "phone-number"],
+      "icons": ["map", "email", "phone"]
+    }
+  }
+}
